@@ -7,6 +7,13 @@ from sklearn.preprocessing import label_binarize
 import matplotlib.pyplot as plt
 
 wine_data = pd.read_csv('C:/Users/4873634/Documents/input/WineQT.csv')
+# 1. Описание датасета
+print("Описание датасета:")
+print("\nПредметная область: Анализ качества вина")
+print("Источник данных: https://www.kaggle.com/datasets/yasserh/wine-quality-dataset?resource=download")
+print("Тип данных: Реальные данные")
+print("\nАтрибуты и их типы:")
+print(wine_data.dtypes)
 print("\nПример данных:")
 print(wine_data.head())
 
