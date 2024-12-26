@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Загрузка данных
-df = pd.read_csv('C:/Users/4873634/Documents/input/Crude_Oil_Data.csv')  # Укажите путь к вашему CSV файлу
+df = pd.read_csv('C:/Users/4873634/Documents/input/Crude_Oil_Data.csv') 
 # 1. Описание датасета
 print("Описание датасета:")
 print("\nПредметная область: Энергетика и экономика, анализ/прогнозирование цен на нефть.")
@@ -18,7 +18,7 @@ print(df.head())
 # Получение статистики по числовым данным
 print(df.describe())
 
-# Преобразование столбца 'Date' в формат datetime, если это необходимо
+# Преобразование столбца 'Date' в формат datetime
 df['Date'] = pd.to_datetime(df['Date'])
 
 # Проверка пропущенных значений
