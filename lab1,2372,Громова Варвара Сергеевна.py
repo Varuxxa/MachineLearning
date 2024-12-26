@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Загрузка данных
+
 df = pd.read_csv('C:/Users/4873634/Documents/input/Crude_Oil_Data.csv') 
 # 1. Описание датасета
 print("Описание датасета:")
