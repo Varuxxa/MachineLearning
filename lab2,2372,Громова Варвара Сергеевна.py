@@ -4,8 +4,7 @@ import seaborn as sns
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
-# Загрузка данных
-df = pd.read_csv('C:/Users/4873634/Documents/input/Crude_Oil_Data.csv')  # Замените на ваш путь к файлу
+df = pd.read_csv('C:/Users/4873634/Documents/input/Crude_Oil_Data.csv')  
 
 # 1. Преобразование столбца 'Date' в формат datetime
 df['Date'] = pd.to_datetime(df['Date'])
