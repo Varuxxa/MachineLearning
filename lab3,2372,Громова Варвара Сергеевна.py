@@ -6,7 +6,6 @@ from sklearn.metrics import classification_report, accuracy_score, roc_auc_score
 from sklearn.preprocessing import label_binarize
 import matplotlib.pyplot as plt
 
-# Загрузка данных
 wine_data = pd.read_csv('C:/Users/4873634/Documents/input/WineQT.csv')
 print("\nПример данных:")
 print(wine_data.head())
